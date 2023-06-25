@@ -483,7 +483,7 @@ class Parser
 
         $this->eat("[");
 
-        $valueList = [$this->Value()];
+        $valueList = $this->lookahead["type"] !== "]" ? [$this->Value()] : [];
 
         while ($this->lookahead["type"] !== "]") {
             $this->eat(",");
