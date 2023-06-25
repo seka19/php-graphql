@@ -1,5 +1,5 @@
 {
-  "name": "joonlabs/php-graphql",
+  "name": "seka19/php-graphql",
   "type": "library",
   "description": "A PHP implementation of the GraphQL specifications",
   "homepage": "https://github.com/joonlabs/php-graphql",
